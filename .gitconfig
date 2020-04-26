@@ -1,0 +1,11 @@
+[user]
+	name = Manabu Sato
+	email = manavy@mt2k.com
+[alias]
+	co = checkout
+	st = status
+	ci = commit -a
+	di = diff
+	br = branch
+[core]
+	editor = vim -c \"set fenc=utf-8\"
