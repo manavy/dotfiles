@@ -16,7 +16,7 @@ set fileformats=unix,dos,mac
 " backup/swap
 " -------------------
 set backup
-set backupdir=~/backup
+set backupdir=~/dev/backup
 set hidden "enable undo after change buffer
 set autowrite
 set history=50

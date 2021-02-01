@@ -1,22 +1,19 @@
 # env
+PATH=~/dev/bin
+PATH=$PATH:$HOME/.cargo/bin # Cargo
+PATH=$PATH:/usr/local/opt/python/libexec/bin #python3
+PATH=$PATH:/usr/local/git/bin #Git
+PATH=$PATH:$HOME/.amplify/bin # Amplify
+PATH=$PATH:/usr/local/bin
+PATH=$PATH:/bin:/sbin:/usr/sbin:/usr/bin #system
+export PATH
+
 export TERM=xterm-256color
 export LANG='ja_JP.UTF-8'
 export LSCOLORS=gxfxcxdxbxegedabagacad # color code for ls
 
-PATH=/usr/local/opt/python/libexec/bin #python3
-PATH=$PATH:~/dev/bin
-PATH=$PATH:/usr/local/bin
-PATH=$PATH:/usr/local/git/bin #Git
-PATH=$PATH:/bin:/sbin:/usr/sbin:/usr/bin #system bin directries
-PATH=$PATH:$HOME/.nodebrew/current/bin #nodebrew
-PATH=$PATH:$HOME/Library/Android/sdk/tools # Android SDK
-PATH="$HOME/.cargo/bin:$PATH" # Cargo
-export PATH
-
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-
 #alias
-alias vi=/usr/bin/vim
+alias vi=vim
 alias l='ls -avGF'
 
 #completion
@@ -64,4 +61,5 @@ setopt  hist_ignore_all_dups
 setopt  hist_reduce_blanks
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 
